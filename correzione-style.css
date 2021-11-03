@@ -1,0 +1,21 @@
+h2{
+    color: orange;
+}
+header{
+    background-color: gray;
+}
+#profile-pic{
+    width: 200px;
+}
+footer{
+   font-size: 10px;
+}
+.testo-centrato{
+    text-align: center;
+}
+hr{
+    border-color: orange;
+}
+h3{
+    font-style: italic;
+}

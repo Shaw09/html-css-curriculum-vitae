@@ -1,0 +1,35 @@
+body {
+    margin: 0 25%;
+    background-image: url(https://jennyleonard.files.wordpress.com/2017/07/e3l-explainer-jenny-leonard-art-small-res.jpg);
+}
+header {
+    background-color: lightgrey;
+    background-image: url(https://uploads.theartofeducation.edu/2020/02/flex-teacher_nobkgd-1.png);
+    text-align: center;
+    border-bottom: 2px solid orange;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+main {
+    background-color: paleturquoise;
+    margin-left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    color: orange;
+    font-family: fantasy;
+}
+strong {
+    font-family: cursive;
+}
+div {
+    background-color: lightskyblue;
+}
+footer {
+    text-align: center;
+    font-size: 50%;
+    border-top: 2px solid orange;
+    background-color: lightgoldenrodyellow;
+}

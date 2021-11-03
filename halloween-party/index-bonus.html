@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style-bonus.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Griffy&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Party Form</title>
+    <link rel="icon" href="img/685842.png">
+</head>
+<body>
+    <header>
+        <h1>Halloween Party</h1>
+    </header>
+    <main>
+        <div class="form-container">
+            <form>
+                <div class="row-container">
+                    <label class="row-form label-container" for="name">Nome</label>
+                    <br>
+                    <input class="row-form" id="name" type="text" placeholder="nome" required>
+                </div>
+                <div class="row-container">
+                    <label class="row-form label-container" for="email">E-mail</label>
+                    <br>
+                    <input class="row-form" id="email" type="text" placeholder="email" required>
+                </div>
+                <div class="row-container">
+                    <label class="row-form label-container" for="tel">Telefono</label>
+                    <br>
+                    <input id="tel" class="number row-form" type="number" placeholder="numero di telefono" required>
+                </div>
+                <div class="row-container">
+                    <label class="row-form label-container" for="arrive-hour">Ora di Arrivo</label>
+                    <br>
+                    <input class="number row-form" id="arrive-hour" type="time">
+                </div>
+                <div class="row-container">
+                    <label class="row-form label-container" for="friendly-invitation">Amici Portati</label>
+                    <br>
+                    <input class="row-form" id="friendly-invitation" type="number">
+                </div>
+                <div class="row-container">
+                    <label class="row-form label-container" for="event">Come hai saputo dell`evento?</label>
+                    <br>
+                    <select class="row-form" name="event" id="event">
+                        <option value="">Scegli un opzione</option>
+                        <option value="social">Social</option>
+                        <option value="ads">Pubblicità</option>
+                        <option value="friends">Amici</option>
+                        <option value="job">Lavoro</option>
+                        <option value="family">Parente</option>
+                    </select>
+                </div>
+                <div class="row-container">
+                    <label class="row-form label-container">Costume Portato</label>
+                    <br>
+                    <textarea rows="20" cols="35">Scrivi qui come ti travestirai.</textarea>
+                </div>
+                <br>
+                <div class="row-container">
+                    <label for="accetta-le-condizioni">Accetta le Condizioni</label>
+                    <input id="accetta-le-condizioni" type="checkbox">
+                </div>
+                <br>
+                <div class="row-button">
+                    <button id="sign" type="submit">Registrati</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Made with &#9829; by Me</p>
+    </footer>
+</body>
+</html>
